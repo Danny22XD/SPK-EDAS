@@ -1,0 +1,30 @@
+:root {
+   --bg: #039dfc;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   color: #fff;
+}
+
+.hero {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   background-image: url('img/img-header.png');
+   background-position: right center;
+   background-repeat: no-repeat;
+   background-size: 700px;
+}
+
+#about {
+  scroll-margin-top: 100px;
+}
+
+.login {
+   color:black;
+}
+
+.register {
+   color: black;
+}

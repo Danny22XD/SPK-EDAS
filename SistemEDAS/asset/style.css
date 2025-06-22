@@ -1,0 +1,40 @@
+body {
+      background-color: #f8f9fa;
+      font-family: 'Poppins', sans-serif;
+    }
+    .sidebar {
+      height: 100vh;
+      background-color: #e9ecef;
+      padding-top: 1rem;
+    }
+    .sidebar a {
+      display: block;
+      padding: 12px 20px;
+      color: #343a40;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      transition: background 0.3s;
+    }
+    .sidebar a:hover,
+    .sidebar a.active {
+      background-color: #0d6efd;
+      color: white;
+    }
+    .content {
+      padding: 2rem;
+    }
+    .header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
